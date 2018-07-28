@@ -2,7 +2,6 @@
 import csv
 from dbfpy import dbf
 import os
-import sys
 from os import listdir
 from os.path import join
 
