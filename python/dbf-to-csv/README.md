@@ -2,8 +2,8 @@
 ## Installation
 - Install Python 2.7, pip, dbfpy
 - https://pypi.org/project/setuptools/ zip package
-- python.exe setup.py install
+- python setup.py install
 - python -m pip install dbfpy
 ## Usage
 - place all files into script dir
-- run command C:\python2\python.exe C:\db\dbf-csv.py
+- run command python dbf-csv.py
