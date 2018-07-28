@@ -5,5 +5,5 @@
 - python.exe setup.py install
 - python -m pip install dbfpy
 ## Usage
-- place all files into dir
+- place all files into script dir
 - run command C:\python2\python.exe C:\db\dbf-csv.py
