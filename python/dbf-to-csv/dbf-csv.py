@@ -6,7 +6,6 @@ import sys
 from os import listdir
 from os.path import join
 
-onlyFiles = []
 currentDir = os.path.dirname(os.path.realpath(__file__))
 for f in listdir(currentDir):
  if f.endswith('.dbf'): 
