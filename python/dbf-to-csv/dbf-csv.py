@@ -9,8 +9,7 @@ from os.path import join
 currentDir = os.path.dirname(os.path.realpath(__file__))
 for f in listdir(currentDir):
  if f.endswith('.dbf'): 
-   filename = join(currentDir, f)
-   if filename.endswith('.dbf'):
+    filename = join(currentDir, f)
     print "Converting %s to csv" % filename
     csv_fn = filename[:-4]+ ".csv"
     with open(csv_fn,'wb') as csvfile:
@@ -24,5 +23,5 @@ for f in listdir(currentDir):
             out_csv.writerow(rec.fieldData)
         in_db.close()
         print "Done..."
-   else:
+ else:
     print "Filename does not end with .dbf"
